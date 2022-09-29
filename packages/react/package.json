@@ -1,5 +1,5 @@
 {
-  "name": "@huogui/eslint-config-ts",
+  "name": "@huogui/eslint-config-react",
   "version": "0.0.1",
   "description": "",
   "author": "huogui <645039234@qq.com> (https://github.com/huogui/)",
@@ -12,16 +12,20 @@
   "files": [
     "index.js"
   ],
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
   "peerDependencies": {
-    "eslint": ">=7.4.0",
-    "typescript": ">=3.9"
+    "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@huogui/eslint-config-basic": "workspace:*",
-    "@typescript-eslint/eslint-plugin": "^5.36.1",
-    "@typescript-eslint/parser": "^5.36.1"
+    "@huogui/eslint-config-ts": "workspace:*",
+    "eslint-plugin-react": "^7.31.1",
+    "eslint-plugin-react-hooks": "^4.6.0"
   },
   "devDependencies": {
-    "eslint": "^8.23.0"
+    "eslint": "^8.23.0",
+    "react": "^18.2.0",
+    "typescript": "^4.8.2"
   }
 }
