@@ -1,6 +1,6 @@
 {
   "name": "@huogui/eslint-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "packageManager": "pnpm@7.12.2",
   "author": "huogui <645039234@qq.com> (https://github.com/huogui/)",
