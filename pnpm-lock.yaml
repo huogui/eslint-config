@@ -4,12 +4,14 @@ importers:
 
   .:
     specifiers:
+      '@huogui/eslint-config': '*'
       bumpp: ^8.2.1
-      eslint: ^8.23.0
+      eslint-plugin-huogui: workspace:*
       typescript: ^4.8.2
     devDependencies:
+      '@huogui/eslint-config': link:packages/all
       bumpp: 8.2.1
-      eslint: 8.24.0
+      eslint-plugin-huogui: link:packages/eslint-plugin-huogui
       typescript: 4.8.4
 
   packages/all:
@@ -566,7 +568,7 @@ packages:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
     dev: false
 
-  /@types/json5/0.0.29:
+  /@types/json5/0.1.19:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: false
 
@@ -3287,7 +3289,7 @@ packages:
   /tsconfig-paths/3.14.1:
     resolution: {integrity: sha512-fxDhWnFSLt3VuTwtvJt5fpwxBHg5AdKWMsgcPOOIilyjymcYVZoCQF8fvFRezCNfblEXmi+PcM1eYHeOAgXCOQ==}
     dependencies:
-      '@types/json5': 0.0.29
+      '@types/json5': 0.1.19
       json5: 1.0.1
       minimist: 1.2.6
       strip-bom: 3.0.0

@@ -329,5 +329,9 @@ module.exports = {
     // yml
     'yml/quotes': ['error', { prefer: 'single', avoidEscape: false }],
     'yml/no-empty-document': 'off',
+
+    // huogui
+    'huogui/if-newline': 'error',
+    'huogui/import-dedupe': 'error',
   },
 }
