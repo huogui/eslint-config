@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-huogui",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "license": "MIT",
   "homepage": "https://github.com/huogui/eslint-config",
   "main": "./dist/index.cjs",
