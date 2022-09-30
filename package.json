@@ -1,6 +1,6 @@
 {
   "name": "@huogui/eslint-config",
-  "version": "1.0.14",
+  "version": "0.0.1",
   "private": true,
   "packageManager": "pnpm@7.12.2",
   "author": "huogui <645039234@qq.com> (https://github.com/huogui/)",
@@ -12,8 +12,9 @@
     "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
   },
   "devDependencies": {
+    "@huogui/eslint-config": "*",
+    "eslint-plugin-huogui": "workspace:*",
     "bumpp": "^8.2.1",
-    "eslint": "^8.23.0",
     "typescript": "^4.8.2"
   }
 }
